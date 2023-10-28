@@ -200,7 +200,7 @@
 
         <!-- probando scroll -->
         <hr class="lineoscuro">
-        <div  class="box wow bounceInRight " data-wow-duration="5s" >
+        <div  class="box wow fadeInUp "  >
             <vue-typed-js :strings="['Desarrollo Web ']" :typeSpeed="100" :showCursor="false">
                 <h3 class="text-center"> <span class="typing text-light texbox"></span></h3>
             </vue-typed-js>
@@ -218,7 +218,7 @@
         <!--end scroll  -->
         <!-- imagen -->
         <div class="row g-0  position-relative imgtrabajo ">
-            <div  class="col-md-6 mb-md-0 p-md-4 organizacionimg wow bounceInLeft" data-wow-duration="5s"  >
+            <div  class="col-md-6 mb-md-0 p-md-4 organizacionimg wow fadeInUp"  >
                 <div class="content_img_ctf" >
                     <img src="../assets/img/ctf_01.png" class="w-100 img_ctf" alt="...">
                 </div>
@@ -236,7 +236,7 @@
                         env&iacute;ame un mensaje al correo o WhatsApp y le responder&eacute; a la brevedad posible.</b>
                     </p>
                     <!-- <div data-aos="zoom-in-left"> -->
-                    <div  class="wow bounceInRight">
+                    <div  class="wow fadeInUp">
                         <a href="mailto:limberstar01@gmail.com" class="cardlogoemail"><i class='bx bx-mail-send icon_page'></i></a>
                     </div>
    
@@ -260,13 +260,13 @@
     <div class="container-fluid comenzar">
         <div class="row">
             <div  class="col-12 col-sm-12 col-md-6 imgcomenzar">
-               <div class="wow fadeInLeft" data-wow-duration="5s"   id="code">
+               <div class="wow fadeInUp"   id="code">
                  <img src="../assets/img/cel0101.png" class="card-img-top" id="imgcel" >
                  <hr class="linecel  rounded">
                </div>
             </div>
             <div  class="col-12 col-sm-12 col-md-6 imgcomenzar" style="color:white">
-                <div  class="sombra wow fadeInRight" data-wow-duration="5s" >
+                <div  class="sombra wow fadeInUp"  >
                     <h3 class="text_sombra">
                         Sistema responsive </h3>
                     <p>
