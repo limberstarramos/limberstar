@@ -6,7 +6,7 @@
         <!-- <h3 class="font-weight-bold  mt-1" href="#">Limberstar</h3> -->
         <router-link to="/"  @click.native="subir"  class=" font-weight-bold  volver logo_page ">Limberstar</router-link>
 
-        <button @click="menuopen" class="navbar-toggler icon" data-toggle="collapse" data-target="#mylista">
+        <button @click="menuopen" class="navbar-toggler icon" data-toggle="collapse"  aria-expanded="false" data-target="#mylista">
           <span v-if="menutoggle">
             <i class='bx bx-menu ico'></i>
           </span>

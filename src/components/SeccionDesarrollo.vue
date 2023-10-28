@@ -4,44 +4,44 @@
 
         <!-- start div container -->
         <div class="container my-4">
-            <h3 class="text-center subtitle wow bounceInUp" data-wow-duration="5s" data-wow-delay="5s">Desarrollo - Experiencia en Sistemas Web</h3>
+            <h3 class="text-center subtitle wow fadeInUp" >Desarrollo - Experiencia en Sistemas Web</h3>
             
         <!-- <h3 data-aos="fade-up"
             AOS.init();k
-            data-aos-anchor-placement="bottom-bottom" class="text-center subtitle wow bounceInUp">Desarrollo - Experiencia en Sistemas Web</h3>
+            data-aos-anchor-placement="bottom-bottom" class="text-center subtitle wow bounceInUp" data-wow-duration="5s" data-wow-delay="5s" >Desarrollo - Experiencia en Sistemas Web</h3>
              -->
         <hr class="linea">
         <p class="text-center my-4 descripcion">Desde que comencé mi trayectoria como desarrollador he creado y participado en
             diferentes proyectos, trabajo constantemente para mejorar mis habilidades en:</p>
         <div class="row align-items-center ">
             <div class="col-sm-12 col-md-4">
-                <div  class="categoria__icon wow bounceInUp" >
+                <div  class="categoria__icon wow fadeInUp" >
                     <i class='bx bx-desktop ' id="ico_categ"></i>
                 </div>
             
-                <div class="categori_descrip text-gray-500 text-md wow bounceInUp">
+                <div class="categori_descrip text-gray-500 text-md wow fadeInUp">
                     <h5  class="categoria__subtitle font-bold text-gray-800 mt-4">Desarrollo Web</h5>
                     <p class="descripcion">He realizado soluciones web ,en sistemas escalables como ser:Academia Test,Mapas,Planillas, Proforma, Contabilidad y entre otros</p>
                 </div>
             </div>
             <div class="col-sm-12 col-md-4">
-                <div class="categoria__icon wow bounceInUp">
+                <div class="categoria__icon wow fadeInUp">
                     <i class='bx bxs-palette' id="ico_categ"></i>
                 </div>
                
-                <div class="categori_descrip text-gray-500 text-md wow bounceInUp">
+                <div class="categori_descrip text-gray-500 text-md wow fadeInUp">
                  <h5 class="categoria__subtitle font-bold text-gray-800 mt-4"> Front-End</h5>
                     <p class="descripcion">Me gusta codificar desde cero o tambien en base de plantillas, estructurar y siseñar UX/UI , darle vida a las ideas en la web, siendo creativo y 
                         dinámico . </p>
                 </div>
             </div>
             <div class="col-sm-12 col-md-4">
-                <div  class="categoria__icon wow bounceInUp">
+                <div  class="categoria__icon wow fadeInUp">
                     <!-- <i class='bx bxs-basket' id="ico_categ" ></i> -->
                     <i class='bx bxs-data' id="ico_categ"></i>
                 </div>
                
-                <div class="categori_descrip text-gray-500 text-md wow bounceInUp">
+                <div class="categori_descrip text-gray-500 text-md wow fadeInUp">
                     <h5  class="categoria__subtitle font-bold text-gray-800 mt-4"> Back-End</h5>
                     <p class="descripcion">Llevar todo el proceso de la lógica interna es tambien uno de mis favoritos,
                         siempre velando la seguridad de los datos y estructurando para que sea un sistema escalable 
@@ -57,12 +57,12 @@
         <!-- end otro boton -->
 
        <!-- seccion sistemas -->
-        <h3   class="text-center subtitle wow bounceInUp">Destacado</h3>
+        <h3   class="text-center subtitle wow  fadeInUp">Destacado</h3>
         <hr class="linea" >
         <p class="descripcion" > Proyectos en los cuales he aventurado.</p>
         
         <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div  class="col-sm-12 col-md-6 col-lg-4 imgnegocio wow bounceInUp">
+            <div  class="col-sm-12 col-md-6 col-lg-4 imgnegocio wow  fadeInUp">
                 <div class="card shadow-lg p-3 mb-5 bg-body rounded ">
                     <img src="../assets/img/home_sisdos.jpg" class="card-img-top imgcard" alt="...">
                     <div class="card-footer text-left">
@@ -72,7 +72,7 @@
                     </div>
                 </div>
             </div>
-            <div  class="col-sm-12 col-md-6 col-lg-4 imgnegocio wow bounceInUp">
+            <div  class="col-sm-12 col-md-6 col-lg-4 imgnegocio wow  fadeInUp">
                 <div class="card shadow-lg p-3 mb-5 bg-body rounded">
                 <img src="../assets/img/guabira.png" class="card-img-top imgcard" alt="...">
 
@@ -84,7 +84,7 @@
 
                 </div>
             </div>
-            <div  class="col-sm-12 col-md-12 col-lg-4 imgnegocio wow bounceInUp">
+            <div  class="col-sm-12 col-md-12 col-lg-4 imgnegocio wow  fadeInUp">
                 <div class="card shadow-lg p-3 mb-5 bg-body rounded">
                 <img src="../assets/img/dashpro.png" class="card-img-to imgcard" alt="...">
                     <div class="card-footer text-left">
@@ -98,17 +98,17 @@
         </div>
         <!-- end seccion sistemas-->
         <!-- seccion product -->
-        <h3  class="text-center subtitle wow bounceInUp">Habilidades </h3>
+        <h3  class="text-center subtitle wow fadeInUp">Habilidades </h3>
         <hr class="linea" >
             <div class="row align-items-center text-left">
                 <div class="col-sm-12 col-md-6">
                     <div class="row ">
                         <!-- start-->
-                        <div  class="col-3 col-sm-4 col-md-3 marginsoft text-center wow bounceInUp">
+                        <div  class="col-3 col-sm-4 col-md-3 marginsoft text-center wow fadeInUp">
                             <!-- <i class='bx bx-tab ico_soft' ></i> -->
                             <i class='bx bxl-php ico_soft'></i>
                         </div>
-                        <div  class="col-9 col-sm-8 col-md-9 marginsoftv wow bounceInUp">
+                        <div  class="col-9 col-sm-8 col-md-9 marginsoftv wow fadeInUp">
                         <h5 class="servicio_subtitle">Laravel</h5>
                             <p class="descripcion">
                                 Laravel es un marco de trabajo para aplicaciones que proporciona también una
@@ -120,10 +120,10 @@
                         </div>
                         <!--end  -->
                         <!-- start -->
-                        <div   class="col-3 col-sm-4 col-md-3 marginsoft text-center wow bounceInUp">
+                        <div   class="col-3 col-sm-4 col-md-3 marginsoft text-center wow fadeInUp">
                              <i class='bx bxl-vuejs ico_soft' ></i>
                         </div>
-                        <div  class="col-9 col-sm-8 col-md-9 marginsoft wow bounceInUp" >
+                        <div  class="col-9 col-sm-8 col-md-9 marginsoft wow fadeInUp" >
                             <h5 class="servicio_subtitle ">Vuejs</h5>
                             <p class="descripcion">
                                 Vue es un marco de JavaScript para construir interfaces de usuario. Se basa en
@@ -134,10 +134,10 @@
                         </div>
                         <!-- end -->
                         <!-- start -->
-                        <div class="col-3 col-sm-4 col-md-3 marginsoft text-center wow bounceInUp">                               
+                        <div class="col-3 col-sm-4 col-md-3 marginsoft text-center wow fadeInUp">                               
                             <i class='bx bxl-react ico_soft' ></i>
                         </div>
-                        <div  class="col-9 col-sm-8 col-md-9 marginsoft wow bounceInUp" >
+                        <div  class="col-9 col-sm-8 col-md-9 marginsoft wow fadeInUp" >
                             <h5 class="servicio_subtitle ">React</h5>
                             <p class="descripcion">
                                 React, una biblioteca javascript, diseñado para facilitar 
@@ -154,10 +154,10 @@
                      <div class="row ">
 
                            <!-- start -->
-                        <div  class="col-3 col-sm-4 col-md-3 marginsoft text-center wow bounceInUp" >
+                        <div  class="col-3 col-sm-4 col-md-3 marginsoft text-center wow fadeInUp" >
                             <i class='bx bxl-tailwind-css ico_soft' ></i>
                         </div>
-                        <div  class="col-9 col-sm-8 col-md-9 marginsoft wow bounceInUp" >
+                        <div  class="col-9 col-sm-8 col-md-9 marginsoft wow fadeInUp" >
                             <h5 class="servicio_subtitle ">Tailwindcss</h5>
                             <p class="descripcion">
                                 Tailwind CSS es un framework CSS que permite un desarrollo ágil, basado en clases de utilidad que se pueden aplicar con facilidad en 
@@ -166,11 +166,11 @@
                         </div>
                         <!-- end -->
                         <!-- start -->
-                        <div  class="col-3 col-sm-4 col-md-3 marginsoft text-center wow bounceInUp" >
+                        <div  class="col-3 col-sm-4 col-md-3 marginsoft text-center wow fadeInUp" >
                             
                             <i class='bx bxs-data ico_soft'></i>
                         </div>
-                        <div  class="col-9 col-sm-8 col-md-9 marginsoft wow bounceInUp" >
+                        <div  class="col-9 col-sm-8 col-md-9 marginsoft wow fadeInUp" >
                             <h5 class="servicio_subtitle ">MySQL</h5>
                             <p class="descripcion">
                                 MySQL es un sistema de administración de bases de datos relacionales.
@@ -181,10 +181,10 @@
                         </div>
                         <!-- end -->
                         <!-- start -->
-                        <div  class="col-3 col-sm-4 col-md-3 marginsoft text-center wow bounceInUp" >
+                        <div  class="col-3 col-sm-4 col-md-3 marginsoft text-center wow fadeInUp" >
                             <i class='bx bxs-data ico_soft'></i>
                         </div>
-                        <div  class="col-9 col-sm-8 col-md-9 marginsoft wow bounceInUp" >
+                        <div  class="col-9 col-sm-8 col-md-9 marginsoft wow fadeInUp" >
                             <h5 class="servicio_subtitle ">SQL server</h5>
                             <p class="descripcion">
                                 Microsoft SQL Server es uno de los principales sistemas de gestión de bases de datos relacional del mercado que presta servicio a un amplio abanico de 
@@ -200,7 +200,7 @@
 
         <!-- probando scroll -->
         <hr class="lineoscuro">
-        <div  class="box wow bounceInRight" data-wow-delay="1.5s" >
+        <div  class="box wow bounceInRight " data-wow-duration="5s" >
             <vue-typed-js :strings="['Desarrollo Web ']" :typeSpeed="100" :showCursor="false">
                 <h3 class="text-center"> <span class="typing text-light texbox"></span></h3>
             </vue-typed-js>
@@ -217,8 +217,8 @@
 
         <!--end scroll  -->
         <!-- imagen -->
-        <div class="row g-0 bg-light position-relative imgtrabajo ">
-            <div  class="col-md-6 mb-md-0 p-md-4 organizacionimg " >
+        <div class="row g-0  position-relative imgtrabajo ">
+            <div  class="col-md-6 mb-md-0 p-md-4 organizacionimg wow bounceInLeft" data-wow-duration="5s"  >
                 <div class="content_img_ctf" >
                     <img src="../assets/img/ctf_01.png" class="w-100 img_ctf" alt="...">
                 </div>
@@ -236,7 +236,7 @@
                         env&iacute;ame un mensaje al correo o WhatsApp y le responder&eacute; a la brevedad posible.</b>
                     </p>
                     <!-- <div data-aos="zoom-in-left"> -->
-                    <div  class="wow bounceInUp">
+                    <div  class="wow bounceInRight">
                         <a href="mailto:limberstar01@gmail.com" class="cardlogoemail"><i class='bx bx-mail-send icon_page'></i></a>
                     </div>
    
@@ -260,20 +260,20 @@
     <div class="container-fluid comenzar">
         <div class="row">
             <div  class="col-12 col-sm-12 col-md-6 imgcomenzar">
-               <div class="wow bounceInUp"  id="code">
+               <div class="wow fadeInLeft" data-wow-duration="5s"   id="code">
                  <img src="../assets/img/cel0101.png" class="card-img-top" id="imgcel" >
                  <hr class="linecel  rounded">
                </div>
             </div>
             <div  class="col-12 col-sm-12 col-md-6 imgcomenzar" style="color:white">
-                <div  class="sombra">
+                <div  class="sombra wow fadeInRight" data-wow-duration="5s" >
                     <h3 class="text_sombra">
                         Sistema responsive </h3>
                     <p>
                         Siempre me gustó hacer un sitio que sea completamente adaptable en cualquier dispositvo.
 
                     </p>
-                    <router-link to="/sobre" @click.native="subir" class="btn btncomenzar text-white">Sobre mí</router-link>
+                    <router-link to="/sobre" @click.native="subir" class="btn btn-outline-light btncomenzar ">Sobre mí</router-link>
                 </div>
               
             </div>
@@ -559,14 +559,14 @@ padding: 5px;
     font-size: 100px;
 }
 .btncomenzar{
-    background: #fff;
+    /* background: #fff; */
     border:1px solid white;
     
 }
 .btncomenzar:hover{
     background: transparent;
     border:1px solid white;
-    color:#fff;
+    /* color:#fff; */
 }
 .imgnegocio{
      transition: transform 0.2s; 

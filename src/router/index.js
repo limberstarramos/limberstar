@@ -1,9 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import Servicios from '../views/Servicios.vue'
 import Contacto from '../views/Contacto.vue'
-import Detalle_servicio from '../views/Detalle_servicio.vue'
 
 Vue.use(VueRouter)
 
@@ -19,19 +17,9 @@ const routes = [
     component: () => import('../views/Sobre.vue')
   },
   {
-    path: '/servicios',
-    name:'Servicios',
-    component: Servicios
-  },
-  {
     path:'/contacto',
     name:'Contacto',
     component:Contacto
-  },
-  {
-    path:'/detalle_servicio',
-    name:'Detalle_servicio',
-    component:Detalle_servicio
   },
 
 

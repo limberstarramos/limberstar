@@ -7,7 +7,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-           <div class="card  imgcap2" >
+           <div class="card  imgcap2 " >
                   <img src="../assets/img/perfil.png" alt="limberstar" style="width:100%;" >
                   <h4 class="text-titulo">Limber Ramos Paco</h4>
                   <p class="title">System Engineer</p>
@@ -29,7 +29,7 @@
     </div>
     <!-- diseño -->
       <div class="d-flex justify-content-center desig">
-        <div class="card1">
+        <div class="card1   ">
           <div class="card cardlogo">
             <i class='bx bx-code-alt icondesig' ></i>
             <div class="container">
