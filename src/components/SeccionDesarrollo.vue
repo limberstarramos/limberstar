@@ -61,10 +61,10 @@
         <hr class="linea" >
         <p class="descripcion" > Proyectos en los cuales he aventurado.</p>
         
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-md-3 g-4" v-lazy-container="{ selector: 'img' }">
             <div  class="col-sm-12 col-md-6 col-lg-4 imgnegocio wow  fadeInUp">
                 <div class="card shadow-lg p-3 mb-5 bg-body rounded ">
-                    <img src="../assets/img/home_sisdos.jpg" class="card-img-top imgcard" alt="...">
+                    <img data-src="../assets/img/home_sisdos.jpg" class="card-img-top imgcard" alt="...">
                     <div class="card-footer text-left">
                         <p class="text-lef fw-bold  sist">Proceso: r&aacute;pido - adaptable</p>
                         <p class="text-sm-start font-bold sist"><b>Control de inventario</b></p>
@@ -74,7 +74,7 @@
             </div>
             <div  class="col-sm-12 col-md-6 col-lg-4 imgnegocio wow  fadeInUp">
                 <div class="card shadow-lg p-3 mb-5 bg-body rounded">
-                <img src="../assets/img/guabira.png" class="card-img-top imgcard" alt="...">
+                <img data-src="../assets/img/guabira.png" class="card-img-top imgcard" alt="...">
 
                     <div class="card-footer text-left">
                         <p class="text-lef fw-bold  sist">Proceso: r&aacute;pido - adaptable</p>
@@ -86,7 +86,7 @@
             </div>
             <div  class="col-sm-12 col-md-12 col-lg-4 imgnegocio wow  fadeInUp">
                 <div class="card shadow-lg p-3 mb-5 bg-body rounded">
-                <img src="../assets/img/dashpro.png" class="card-img-to imgcard" alt="...">
+                <img data-src="../assets/img/dashpro.png" class="card-img-to imgcard" alt="...">
                     <div class="card-footer text-left">
                         <p class="text-lef fw-bold  sist">Proceso: r&aacute;pido - adaptable</p>
                         <p class="fw-bold sist"><b>Órdenes de trabajo</b></p>

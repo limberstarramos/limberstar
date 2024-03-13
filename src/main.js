@@ -14,7 +14,16 @@ import "boxicons/css/boxicons.css"
 import "popper.js"
 import "bootstrap/dist/js/bootstrap.min.js"
 import "./assets/js/floating-wpp.min.js"
+import VueLazyload from 'vue-lazyload'
+const loadimage = require('./assets/img/loading.gif')
 // import  "wow.js"
+Vue.use(VueLazyload, {
+  preLoad: 1.3,
+  // error: errorimage,
+  loading: loadimage,
+  attempt: 1,
+  // lazyComponent: true
+})
 
 Vue.config.productionTip = false
 // import VueLazyload from 'vue-lazyload'
