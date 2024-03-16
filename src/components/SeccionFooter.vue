@@ -5,7 +5,7 @@
             <div class="row d-flex justify-content-around ">
                  <div class="col-sm-12 col-md-12 p-2 bg-info1 text-center">
                      <div class="sobreL">
-                        <img src="../assets/img/lim1.png" width="50px" height="50px">
+                        <img v-lazy="'/images/lim1.png'" width="50px" height="50px">
                         <h3 class="text-center SL">Sobre mi</h3>
                      </div>
                    

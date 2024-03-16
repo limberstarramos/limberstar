@@ -7,11 +7,14 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-           <div class="card  imgcap2 " >
-                  <img src="../assets/img/perfil.png" alt="limberstar" style="width:100%;" >
+           <div class="card  imgcap2  p-3" >
+                  <div class="d-flex w-100 justify-content-center content_perfil py-2">
+                    <img v-lazy="'/images/perfil.png'" alt="limberstarramos"  class="img_perfil"  >
+                  </div>
+                   
                   <h4 class="text-titulo">Limber Ramos Paco</h4>
                   <p class="title">System Engineer</p>
-                  <a href="https://www.linkedin.com/in/limber-ramos-p-39a1ba197"><i class='bx bxl-linkedin-square'></i></a>
+                  <a href="https://www.linkedin.com/in/limber-ramos-p-39a1ba197"><i class='bx bxl-linkedin-square' style="font-size: 2rem;"></i></a>
             </div>
         </div>
         <div class="col-md-6 textdescripcion">
@@ -55,7 +58,18 @@
 </template>
 <script>
 export default {
-    name:"sobre"
+    name:"sobre",
+    data(){
+      return{
+        host:''
+      }
+    },
+    mounted:function(){
+        this.$nextTick(function () {
+            // this.host=window.location.host;
+        })
+    },
+
 
 }
 </script>
@@ -154,6 +168,17 @@ padding-bottom: 5%;
   position: relative;
   margin-top: 1rem;
 }
+.img_perfil{
+  object-fit: contain;
+}
+.content_perfil img[lazy=loaded] {
+  width:100%;
+}
+img[lazy=loading] {
+    width: 50px;
+    max-width:50px;
+}
+
 @media screen and (max-width: 600px) {
   .descripcion {
     font-size: 85%;

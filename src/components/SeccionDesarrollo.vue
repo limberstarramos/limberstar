@@ -6,10 +6,6 @@
         <div class="container my-4">
             <h3 class="text-center subtitle wow fadeInUp" >Desarrollo - Experiencia en Sistemas Web</h3>
             
-        <!-- <h3 data-aos="fade-up"
-            AOS.init();k
-            data-aos-anchor-placement="bottom-bottom" class="text-center subtitle wow bounceInUp" data-wow-duration="5s" data-wow-delay="5s" >Desarrollo - Experiencia en Sistemas Web</h3>
-             -->
         <hr class="linea">
         <p class="text-center my-4 descripcion">Desde que comencé mi trayectoria como desarrollador he creado y participado en
             diferentes proyectos, trabajo constantemente para mejorar mis habilidades en:</p>
@@ -60,11 +56,17 @@
         <h3   class="text-center subtitle wow  fadeInUp">Destacado</h3>
         <hr class="linea" >
         <p class="descripcion" > Proyectos en los cuales he aventurado.</p>
-        
-        <div class="row row-cols-1 row-cols-md-3 g-4" v-lazy-container="{ selector: 'img' }">
+        <!-- v-lazy-container="{ selector: 'img' }" -->
+        <div class="row row-cols-1 row-cols-md-3 g-4" >
             <div  class="col-sm-12 col-md-6 col-lg-4 imgnegocio wow  fadeInUp">
                 <div class="card shadow-lg p-3 mb-5 bg-body rounded ">
-                    <img data-src="../assets/img/home_sisdos.jpg" class="card-img-top imgcard" alt="...">
+                    <!-- <img data-src="http://localhost:8080/images/home_sisdos.jpg" class="card-img-top imgcard" alt="..."> -->
+                    
+                    <div class="d-flex w-100 justify-content-center">
+                        <img v-lazy="host+'/images/home_sisdos.jpg'"  class="card-img-top imgcard" alt="...">
+                        <!-- <img src="../assets/img/loading.gif" class="card-img imgcard" alt=""> -->
+                    </div>
+                    
                     <div class="card-footer text-left">
                         <p class="text-lef fw-bold  sist">Proceso: r&aacute;pido - adaptable</p>
                         <p class="text-sm-start font-bold sist"><b>Control de inventario</b></p>
@@ -74,8 +76,10 @@
             </div>
             <div  class="col-sm-12 col-md-6 col-lg-4 imgnegocio wow  fadeInUp">
                 <div class="card shadow-lg p-3 mb-5 bg-body rounded">
-                <img data-src="../assets/img/guabira.png" class="card-img-top imgcard" alt="...">
-
+                <!-- <img data-src="../assets/img/guabira.png" class="card-img-top imgcard" alt="..."> -->
+                <div class="d-flex w-100 justify-content-center">
+                    <img v-lazy="host+'/images/guabira.png'"  class="card-img-top imgcard" alt="...">
+                </div>
                     <div class="card-footer text-left">
                         <p class="text-lef fw-bold  sist">Proceso: r&aacute;pido - adaptable</p>
                         <p class="sist"><b>Gestión de actividades y productos</b></p>
@@ -86,7 +90,10 @@
             </div>
             <div  class="col-sm-12 col-md-12 col-lg-4 imgnegocio wow  fadeInUp">
                 <div class="card shadow-lg p-3 mb-5 bg-body rounded">
-                <img data-src="../assets/img/dashpro.png" class="card-img-to imgcard" alt="...">
+                <!-- <img data-src="../assets/img/dashpro.png" class="card-img-to imgcard" alt="..."> -->
+                <div class="d-flex w-100 justify-content-center">
+                    <img v-lazy="host+'/images/dashpro.png'"  class="card-img-top imgcard" alt="...">
+                </div>
                     <div class="card-footer text-left">
                         <p class="text-lef fw-bold  sist">Proceso: r&aacute;pido - adaptable</p>
                         <p class="fw-bold sist"><b>Órdenes de trabajo</b></p>
@@ -219,8 +226,9 @@
         <!-- imagen -->
         <div class="row g-0  position-relative imgtrabajo ">
             <div  class="col-md-6 mb-md-0 p-md-4 organizacionimg wow fadeInUp"  >
-                <div class="content_img_ctf" >
-                    <img src="../assets/img/ctf_01.png" class="w-100 img_ctf" alt="...">
+                <div class="content_img_ctf" v-lazy:background-image="host+'/images/bg_ctf.jpeg'">
+                    <img v-lazy="host+'/images/ctf_01.png'" class="img_ctf" alt="...">
+                       <!-- <img src="../assets/img/loading.gif" class=" img_ctf" alt=""> -->
                 </div>
             </div>
             <div class="col-md-6 p-4 ps-md-0 organizaciontext">
@@ -261,16 +269,16 @@
         <div class="row">
             <div  class="col-12 col-sm-12 col-md-6 imgcomenzar">
                <div class="wow fadeInUp"   id="code">
-                 <img src="../assets/img/cel0101.png" class="card-img-top" id="imgcel" >
+                 <img v-lazy="host+'/images/cel0101.png'" class="card-img-top" id="imgcel" >
                  <hr class="linecel  rounded">
                </div>
             </div>
             <div  class="col-12 col-sm-12 col-md-6 imgcomenzar" style="color:white">
                 <div  class="sombra wow fadeInUp"  >
                     <h3 class="text_sombra">
-                        Sistema responsive </h3>
+                        Sistema responsivo </h3>
                     <p>
-                        Siempre me gustó hacer un sitio que sea completamente adaptable en cualquier dispositvo.
+                        Siempre me gustó que un sitio sea completamente adaptable en cualquier dispositvo.
 
                     </p>
                     <router-link to="/sobre" @click.native="subir" class="btn btn-outline-light btncomenzar ">Sobre mí</router-link>
@@ -289,12 +297,15 @@ export default {
     data: function(){
         return {
             iconwhatsapp:false,
-            src:'../assets/img/whatsapp.svg'
+            src:'../assets/img/whatsapp.svg',
+            host:''
         }
        
     },
     mounted:function(){
         this.$nextTick(function () {
+            // this.host=window.location.host;
+
             // AOS.init();
             new WOW().init();
 
@@ -345,7 +356,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     #ico_categ{
     color: #4070F4;
     padding: 7%;
@@ -418,8 +429,11 @@ export default {
         
     }
     .content_img_ctf{
+        background-repeat: no-repeat;
+    }
+    .content_img_ctf img[lazy=loaded]{
         /* background: yellow; */
-        background-image: url('../assets/img/bg_ctf.jpeg');
+        /* background-image: url('../assets/img/bg_ctf.jpeg'); */
         height: 400px;
         position:relative;
 
@@ -428,9 +442,11 @@ export default {
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 10px;
-       
     }
+
+
     .img_ctf{
+        width:100%;
         height: 100%;
         object-fit: contain;
     }
@@ -566,7 +582,7 @@ padding: 5px;
 .btncomenzar:hover{
     background: transparent;
     border:1px solid white;
-    /* color:#fff; */
+    color:#fff;
 }
 .imgnegocio{
      transition: transform 0.2s; 
@@ -574,6 +590,11 @@ padding: 5px;
 
 .imgnegocio:hover{
  transform: scale(1.05); 
+}
+
+img[lazy=loading] {
+    width: 50px;
+    max-width:50px;
 }
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */

@@ -1,12 +1,12 @@
 <template>
-    <div class="spinner">
+   
       <div id="contenedor_carga">
         <div id="carga">
 
         </div>
 
       </div>
-    </div>
+  
 </template>
 <script>
 
@@ -33,7 +33,7 @@ export default {
 </script>
 <style scoped>
 #contenedor_carga{
-  background-color: rgba(240, 245, 250, 0.8);
+  background-color: rgba(240, 245, 250, 1);
   height: 100%;
   width: 100%;
   position: fixed;
@@ -43,8 +43,6 @@ export default {
   z-index:10000;
 }
 #carga{
-  /* border: 15px solid #ccc;
-  border-top-color: #f4266A; */
   border: 15px solid #5aa5c7;
   border-top-color: #056aa8;
 

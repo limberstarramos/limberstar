@@ -66,8 +66,8 @@
     <div class="container-fluid titulo">
       <div class="subtl">
       <p>¡S&iacute;gueme en mis redes sociales!</p>
-        <div class="float-center iconred">
-          <a href="https://www.facebook.com/limber.ramos.18?mibextid=ZbWKwL" class="float-left" target="_blank" ><i class='bx bxl-facebook-square'></i></a>
+        <div class="float-center d-flex justify-content-center gap-4 iconred">
+          <!-- <a href="" class="float-left" target="_blank" ><i class='bx bxl-facebook-square'></i></a> -->
           <a href="https://twitter.com/LimberstarR?=09" target="_blank"><i class='bx bxl-twitter'></i></a>
           <a href="https://www.linkedin.com/in/limber-ramos-p-39a1ba197" class="float-right" target="_blank"><i class='bx bxl-linkedin'></i></a>
 
