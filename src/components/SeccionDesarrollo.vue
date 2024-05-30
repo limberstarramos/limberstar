@@ -298,7 +298,7 @@ export default {
         return {
             iconwhatsapp:false,
             src:'../assets/img/whatsapp.svg',
-            host:''
+            host:'https://limberstarramos.github.io/limberstar'
         }
        
     },

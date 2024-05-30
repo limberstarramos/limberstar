@@ -5,7 +5,7 @@
             <div class="row d-flex justify-content-around ">
                  <div class="col-sm-12 col-md-12 p-2 bg-info1 text-center">
                      <div class="sobreL">
-                        <img v-lazy="'/images/lim1.png'" width="50px" height="50px">
+                        <img v-lazy="host+'/images/lim1.png'" width="50px" height="50px">
                         <h3 class="text-center SL">Sobre mi</h3>
                      </div>
                    
@@ -13,30 +13,6 @@
                     <p>Limber Ramos   <br>Desarrollador web</p>
                     <small>Santa Cruz - Bolivia</small>
                  </div>
-                <!-- <div class="col-sm-12 col-md-4 p-2 bg-warning1 text-left">
-                    <h3 class="text-center">Productos</h3>
-                     <hr class="linefooter">
-                     <div class="footL">
-                        <ul>
-                            <li>Sistema de inventario</li>
-                            <li>Cat&aacute;logo de productos</li>
-                            <li>Sistema de pedidos e ingresos</li>
-                        </ul>
-                     </div>
-      
-                </div> -->
-                <!-- <div class="col-sm-12 col-md-6 p-2 bg-primary1 text-left">
-                    <h3 class="text-center">Info.</h3>
-                     <hr class="linefooter">
-                    <div class="footL">
-                        <ul>
-                            <li>Portafolio </li>
-                            <li>Servicios</li>
-                        </ul>
-
-                    </div>
-
-                </div> -->
 
             </div>
         </div>
@@ -56,6 +32,11 @@ export default {
   props: {
     msg: String
   },
+  data:function(){
+    return{
+        host:'https://limberstarramos.github.io/limberstar'
+    }
+  }
 
 }
 </script>

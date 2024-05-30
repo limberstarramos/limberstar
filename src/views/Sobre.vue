@@ -9,7 +9,7 @@
         <div class="col-md-6">
            <div class="card  imgcap2  p-3" >
                   <div class="d-flex w-100 justify-content-center content_perfil py-2">
-                    <img v-lazy="'/images/perfil.png'" alt="limberstarramos"  class="img_perfil"  >
+                    <img v-lazy="host+'/images/perfil.png'" alt="limberstarramos"  class="img_perfil"  >
                   </div>
                    
                   <h4 class="text-titulo">Limber Ramos Paco</h4>
@@ -61,7 +61,7 @@ export default {
     name:"sobre",
     data(){
       return{
-        host:''
+        host:'https://limberstarramos.github.io/limberstar'
       }
     },
     mounted:function(){
